@@ -14,7 +14,7 @@ var app = new Vue({
     //a user must provide “Name” and “Phone number” before can click on the checkout button (1%)
     username: "",
     phonenumber: "",
-    backendURL: "http://localhost:8080/",
+    backendURL: "https://cst-3145-coursework-2-backend.vercel.app/",
   },
 
   // after the VUE app is launched, invoke the get the lessons from backend
